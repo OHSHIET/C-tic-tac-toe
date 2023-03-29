@@ -1,9 +1,9 @@
 # Tic Tac Toe game made in C
 This C project was made for Principles of Computer Programming final at Singidunum University.
 
-Originally, the goal was to make a Connect Four game, but I messed up the explanation and made tic tac toe.
+The game writes your save files to `result.txt` file. For game IDs I used current time which is then converted to hex.
 
-The game writes your save files to `result.txt`.
+Originally, the goal was to make a Connect Four game, but I messed up the explanation and made tic tac toe.
 
 ## Rules for the project
 Write a program that implements a computer version of the connect four  (https://en.wikipedia.org/wiki/Connect_Four) game. The game is played on a board that is 7 fields wide and 6 fields high. It is played by two players with the symbols ‘X’ and ‘O’. Players can choose the column in which their symbol is placed on top of the symbols that are already in that column. The winner is the player that first makes a row of 4 symbols either vertically, horizontally or diagonally. The goal is to write a program that implements this game. When started the program should display main menu with the following three options:
